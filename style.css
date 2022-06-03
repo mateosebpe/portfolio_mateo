@@ -1,0 +1,35 @@
+body{
+    background-color: #000000;
+    padding: 3em;
+}
+
+h1,h4,p{
+    color: white;
+    font-family: Raleway;
+}
+
+.info, .social, .works{
+    text-align: center;
+}
+
+.info_img{
+    border-radius: 50%;
+    border: solid 2px orange;
+    height: 10em;
+}
+
+.tagline{
+    margin-top: 0;
+    font-family: Raleway;
+    font-style: italic;
+}
+
+.name{
+    margin-bottom: 3px;
+    color: orange;
+}
+
+a.btn_social{
+    margin: 5px;
+    background-color: #000000;
+}
