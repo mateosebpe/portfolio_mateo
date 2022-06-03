@@ -82,3 +82,5 @@ a.btn_social{
         transition: 1s ease;
     }
 }
+
+a{text-decoration: none;}
