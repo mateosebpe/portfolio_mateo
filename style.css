@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #000000;
     padding: 3em;
@@ -37,21 +40,13 @@ a.btn_social{
     background-color: #000000;
 }
 
+
 .work img{
-filter: grayscale(0%);
-filter: gray;
--webkit-filter: grayscale(0%);
-opacity:1;
-filter: none;
-transition: 1s ease;
+    
+
 }
-.work img:hover{
-    filter: grayscale(100%);
-    opacity:0.5;
-    -webkit-filter: grayscale(100%);
-    transition: 1s ease;
-    box-shadow: orange 0px 0px 20px;
-}
+
+
 
 @media (min-width: 576px){
     .work img{
@@ -59,7 +54,20 @@ transition: 1s ease;
         width: 20%;
         height: auto;
         margin: 5px;
+        filter: grayscale(100%);
+        opacity:0.5;
+        -webkit-filter: grayscale(100%);
+        transition: 1s ease;
     }
+    .work img:hover{
+        filter: grayscale(0%);
+        filter: gray;
+        -webkit-filter: grayscale(0%);
+        opacity:1;
+        transition: 1s ease;
+        }
+
+
 
 }
 
@@ -69,6 +77,8 @@ transition: 1s ease;
         width: 100%;
         height: auto;
         margin-bottom: 2em;
+        opacity:1;
+        filter: none;
+        transition: 1s ease;
     }
-
 }
