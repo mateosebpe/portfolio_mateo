@@ -11,6 +11,9 @@ h1,h4,p{
 .info, .social, .works{
     text-align: center;
 }
+.social h4{
+    margin-bottom: 10px;
+}
 
 .info_img{
     border-radius: 50%;
@@ -35,7 +38,7 @@ a.btn_social{
 }
 
 .work img{
-    filter: grayscale(0%);
+filter: grayscale(0%);
 filter: gray;
 -webkit-filter: grayscale(0%);
 opacity:1;
@@ -47,6 +50,7 @@ transition: 1s ease;
     opacity:0.5;
     -webkit-filter: grayscale(100%);
     transition: 1s ease;
+    box-shadow: orange 0px 0px 20px;
 }
 
 @media (min-width: 576px){
@@ -64,7 +68,7 @@ transition: 1s ease;
         display: inline-block;
         width: 100%;
         height: auto;
-        margin: 5px;
+        margin-bottom: 2em;
     }
 
 }
