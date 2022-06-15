@@ -3,7 +3,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000000;
+    /*gradient from black to orange*/
+    background: linear-gradient(to top, #000000, #111111);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;
     padding: 3em;
 }
 
@@ -75,9 +83,6 @@ a.btn_social > img:hover{
         opacity:1;
         transition: 0.8s ease;
         }
-
-
-
 }
 
 @media (max-width: 1400px){
@@ -93,3 +98,4 @@ a.btn_social > img:hover{
 }
 
 a{text-decoration: none;}
+
