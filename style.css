@@ -35,6 +35,7 @@ color: orange;
 .info, .social, .works{
     margin-top: 1em;
     text-align: center;
+
 }
 .social h4{
     margin-bottom: 10px;
@@ -124,7 +125,7 @@ a.btn_social > img:hover{
         margin-bottom: 2em;
         opacity:1;
         filter: none;
-
+        margin-top: 8px;
     }
 }
 
