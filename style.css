@@ -20,13 +20,20 @@ h1{
     font-family: Raleway;
 }
 h4,p{
+    margin-top: 2em;
+    margin-bottom: 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
+span{
+text-decoration: underline;
+}
+
 .info, .social, .works{
+    margin-top: 1em;
     text-align: center;
 }
 .social h4{
@@ -61,11 +68,29 @@ a.btn_social > img:hover{
     transition: 0.1s;
 }
 
-
-
+.productos{
+    display: flex;
+    justify-content: center;
+}
+.productos > div{
+    padding: 15px;
+    margin: 8px;
+    border-radius: 40px;
+    background-color: #111111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 
 
 @media (min-width: 576px){
+    .productos{
+        flex-direction: row;
+    }
+    .productos > div{
+       width: 30%
+    }
+
     .work img{
         display: inline-block;
         width: 20%;
@@ -85,7 +110,13 @@ a.btn_social > img:hover{
         }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1024px){
+    .productos{
+        flex-direction: column;
+    }
+    .productos > div{
+        width: 100%
+     }
     .work img{
         display: inline-block;
         width: 100%;
